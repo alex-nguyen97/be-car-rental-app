@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Set the target to ES2020 or later
+    "module": "es2020", // Use ES2020 modules or later
+    "moduleResolution": "node", // Use Node.js module resolution
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "outDir": "./dist" // Output directory for compiled files
+  },
+  "include": ["api/**/*.ts"], // Include your API files
+  "exclude": ["node_modules"]
+}
